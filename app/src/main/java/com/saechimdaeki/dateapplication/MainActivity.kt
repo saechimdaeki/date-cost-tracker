@@ -6,8 +6,10 @@ import androidx.activity.compose.setContent
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import com.saechimdaeki.dateapplication.presentation.viewmodel.DateCostTrackerTheme
-import com.saechimdaeki.datecosttracker.MainScreen
+import com.saechimdaeki.dateapplication.screen.MainScreen
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
